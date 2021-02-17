@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BNR_Blog_CustomRotor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Authentic Cowboy Hat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j58-ut-ad7">
+                                <rect key="frame" x="20" y="69" width="374" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sale-hat" translatesAutoresizingMaskIntoConstraints="NO" id="IE4-nb-MJu">
+                                <rect key="frame" x="20" y="113" width="374" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="WpV-Wl-hUI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate this product:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7j-0a-loA">
+                                <rect key="frame" x="20" y="455" width="146" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="B3n-6w-QaE">
+                                <rect key="frame" x="74.5" y="495.5" width="265" height="45"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filled-star" translatesAutoresizingMaskIntoConstraints="NO" id="i0S-Cw-PEi">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="P8o-aV-ZgC"/>
+                                            <constraint firstAttribute="height" constant="45" id="Q6r-Xw-Ajb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-star" translatesAutoresizingMaskIntoConstraints="NO" id="GOG-8I-Ot3">
+                                        <rect key="frame" x="55" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="B7M-ft-ok8"/>
+                                            <constraint firstAttribute="width" constant="45" id="nGh-jG-4TD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-star" translatesAutoresizingMaskIntoConstraints="NO" id="Slv-UO-LND">
+                                        <rect key="frame" x="110" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="Qsw-ea-KLp"/>
+                                            <constraint firstAttribute="height" constant="45" id="eJJ-GI-zKC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-star" translatesAutoresizingMaskIntoConstraints="NO" id="C8q-7D-TTV">
+                                        <rect key="frame" x="165" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="TcG-u6-Moh"/>
+                                            <constraint firstAttribute="height" constant="45" id="iPs-ht-LwN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-star" translatesAutoresizingMaskIntoConstraints="NO" id="Xov-9t-8z0">
+                                        <rect key="frame" x="220" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="W7k-0i-uea"/>
+                                            <constraint firstAttribute="height" constant="45" id="dzA-6C-Pay"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFd-8L-sJb">
+                                <rect key="frame" x="20" y="283" width="374" height="122"/>
+                                <string key="text">The cowboy hat is a high-crowned, wide-brimmed hat best known as the defining piece of attire for the North American cowboy. ... The high-crowned, wide-brimmed, soft-felt western hats that followed are intimately associated with the cowboy image.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjU-fd-oGb">
+                                <rect key="frame" x="75" y="570.5" width="264" height="45"/>
+                                <color key="backgroundColor" red="0.72941176470588232" green="0.40000000000000002" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="2bz-Mo-GZ0"/>
+                                </constraints>
+                                <state key="normal" title="Submit Rating">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e7j-0a-loA" firstAttribute="top" secondItem="OFd-8L-sJb" secondAttribute="bottom" constant="50" id="3N1-xi-kWr"/>
+                            <constraint firstItem="OFd-8L-sJb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9gp-lk-6RI"/>
+                            <constraint firstItem="IE4-nb-MJu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="B8k-ol-fl6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IE4-nb-MJu" secondAttribute="trailing" constant="20" id="FFU-Cx-9Rw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="e7j-0a-loA" secondAttribute="trailing" symbolic="YES" id="GPe-wX-xYS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j58-ut-ad7" secondAttribute="trailing" constant="20" id="JOe-Cn-RtN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j58-ut-ad7" secondAttribute="trailing" constant="20" id="Mqk-1L-aEJ"/>
+                            <constraint firstItem="IE4-nb-MJu" firstAttribute="top" secondItem="j58-ut-ad7" secondAttribute="bottom" constant="20" id="N5U-YA-J7M"/>
+                            <constraint firstItem="OjU-fd-oGb" firstAttribute="top" secondItem="B3n-6w-QaE" secondAttribute="bottom" constant="30" id="OGg-yW-qb6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OjU-fd-oGb" secondAttribute="trailing" constant="75" id="OM1-Ih-K9E"/>
+                            <constraint firstItem="e7j-0a-loA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ONh-C4-paM"/>
+                            <constraint firstItem="j58-ut-ad7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RSK-JQ-6eu"/>
+                            <constraint firstAttribute="trailing" secondItem="OFd-8L-sJb" secondAttribute="trailing" constant="20" id="T3B-yk-64F"/>
+                            <constraint firstItem="j58-ut-ad7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="bId-Tk-b4K"/>
+                            <constraint firstItem="OFd-8L-sJb" firstAttribute="top" secondItem="IE4-nb-MJu" secondAttribute="bottom" constant="20" id="bX5-xl-uIQ"/>
+                            <constraint firstItem="B3n-6w-QaE" firstAttribute="top" secondItem="e7j-0a-loA" secondAttribute="bottom" constant="20" id="bdS-Qr-XcD"/>
+                            <constraint firstItem="OjU-fd-oGb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="ies-6v-bID"/>
+                            <constraint firstItem="B3n-6w-QaE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rrE-HG-a3J"/>
+                            <constraint firstItem="j58-ut-ad7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vQl-Ec-Jt7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="productImageView" destination="IE4-nb-MJu" id="Jff-ZJ-rBV"/>
+                        <outlet property="ratingStackView" destination="B3n-6w-QaE" id="ikm-Ff-EaG"/>
+                        <outlet property="titleLabel" destination="j58-ut-ad7" id="FlV-F3-b4o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.98550724637687" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="filled-star" width="797" height="751"/>
+        <image name="open-star" width="797" height="751"/>
+        <image name="sale-hat" width="3500" height="2333"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
