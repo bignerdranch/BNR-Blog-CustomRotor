@@ -24,11 +24,9 @@ class ViewController: UIViewController {
         let rotorOption = UIAccessibilityCustomRotor(name: "Rating Value") { [weak self] predicate -> UIAccessibilityCustomRotorItemResult? in
             guard let self = self else { return nil }
             
-            if predicate.searchDirection == UIAccessibilityCustomRotor.Direction.previous && rating < 5 {
-                rating += 1
-            } else if rating > 0 {
-                rating -= 1
-            }
+            let isFlickUp = predicate.searchDirection == UIAccessibilityCustomRotor.Direction.previous
+            let delta = isFlickUp ? +1 : -1
+            rating = min(max(0, rating + delta), 4)
             
             self.setRating(value: rating)
             
